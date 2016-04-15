@@ -1,0 +1,23 @@
+﻿Build started 14.04.2016 11:55:15.
+     1>Project "C:\Users\henne\documents\visual studio 2015\Projects\DirectX11Framework\DirectX11Framework\DirectX11Framework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         G:\Programme\VS\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt DXManager.cpp
+         DXManager.cpp
+       Link:
+         G:\Programme\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\henne\documents\visual studio 2015\Projects\DirectX11Framework\Debug\DirectX11Framework.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\henne\documents\visual studio 2015\Projects\DirectX11Framework\Debug\DirectX11Framework.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\henne\documents\visual studio 2015\Projects\DirectX11Framework\Debug\DirectX11Framework.lib" /MACHINE:X86 Debug\ColorShaderRenderer.obj
+         Debug\Core.obj
+         Debug\DXManager.obj
+         Debug\Main.obj
+         Debug\TriangleObject.obj
+         DirectX11Framework.vcxproj -> C:\Users\henne\documents\visual studio 2015\Projects\DirectX11Framework\Debug\DirectX11Framework.exe
+       PostBuildEvent:
+         xcopy "C:\Users\henne\documents\visual studio 2015\Projects\DirectX11Framework\DirectX11Framework\*.cso" "C:\Users\henne\documents\visual studio 2015\Projects\DirectX11Framework\Debug\" /Y /C
+         :VCEnd
+         C:\Users\henne\documents\visual studio 2015\Projects\DirectX11Framework\DirectX11Framework\ColorShader_PS.cso
+         C:\Users\henne\documents\visual studio 2015\Projects\DirectX11Framework\DirectX11Framework\ColorShader_VS.cso
+         2 File(s) copied
+     1>Done Building Project "C:\Users\henne\documents\visual studio 2015\Projects\DirectX11Framework\DirectX11Framework\DirectX11Framework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.11
